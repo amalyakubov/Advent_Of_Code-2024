@@ -1,6 +1,4 @@
 use std::fs;
-use std::io;
-use std::ops::Index;
 
 fn main() {
     let contents = fs::read_to_string("input.txt").expect("Unable to read file");
